@@ -1,3 +1,149 @@
+:root {
+  box-sizing: border-box;
+}
 
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: #fff;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Poppins", sans-serif;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  border: none;
+}
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+button:focus,
+input:focus {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  background-color: #674baf;
+  background-image: url("../images/bg-mobile.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2.3em;
+}
+
+.logo-wrapper .logo {
+  width: 8em;
+}
+
+.marketing-illustration {
+  background-image: url("../images/illustration-mockups.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 45vh;
+  margin-top: 2.3em;
+}
+
+.marketing-message .message-title {
+  font-size: 1.3em;
+  text-align: center;
+}
+.marketing-message .message-title span {
+  display: block;
+}
+.marketing-message .message-title span + span {
+  margin-top: 0.5em;
+}
+.marketing-message .message-text {
+  text-align: center;
+}
+.marketing-message .button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.marketing-message .button-wrapper .btn-register {
+  border: none;
+  background-color: #fff;
+  color: #674baf;
+  padding: 10px;
+  width: 80%;
+  font-size: 0.9em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 4px 6px -3px #3d0f3d;
+  -moz-box-shadow: 0px 4px 6px -3px #3d0f3d;
+  box-shadow: 0px 4px 6px -3px #3d0f3d;
+}
+
+.social-links-wrapper {
+  margin-top: 4em;
+  display: flex;
+  justify-content: center;
+}
+.social-links-wrapper .social-icon + .social-icon {
+  margin-top: 0;
+}
+.social-links-wrapper .social-icon {
+  margin-right: 11px;
+}
+.social-links-wrapper .social-icon:last-child {
+  margin-right: 0;
+}
+.social-links-wrapper .social-icon .fab {
+  padding: 9px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+footer {
+  margin-top: 4em;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: #3e52a3;
+}
+footer .attribution span {
+  display: block;
+}
+footer .attribution span + span {
+  margin-top: 0;
+}
 
 /*# sourceMappingURL=styles.css.map */
