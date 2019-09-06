@@ -80,11 +80,13 @@ input:focus {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 100%;
-  min-height: 45vh;
+  // min-height: 45vh;
+  min-height: 200px;
   margin-top: 2.3em;
 }
 
 .marketing-message {
+  margin-top: 3em;
 
     .message-title {
       font-size: 1.3em;
@@ -239,7 +241,7 @@ footer {
 
   .marketing-illustration {
     margin-top: 2.8em;
-    min-height: 75vh;
+    min-height: 400px;
   }
 
   .marketing-message {
