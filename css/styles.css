@@ -55,7 +55,7 @@ input:focus {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 2.3em;
+  padding: 2.3em 2.3em 0.5em 2.3em;
 }
 
 .logo-wrapper .logo {
@@ -66,13 +66,14 @@ input:focus {
   background-image: url("../images/illustration-mockups.svg");
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
   min-height: 45vh;
   margin-top: 2.3em;
 }
 
 .marketing-message .message-title {
   font-size: 1.3em;
+  font-weight: bold;
   text-align: center;
 }
 .marketing-message .message-title span {
@@ -93,7 +94,7 @@ input:focus {
   border: none;
   background-color: #fff;
   color: #674baf;
-  padding: 10px;
+  padding: 15px;
   width: 80%;
   font-size: 0.9em;
   text-align: center;
@@ -145,5 +146,61 @@ footer .attribution span {
 footer .attribution span + span {
   margin-top: 0;
 }
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    padding: 3.5em 4em 2em 4em;
+  }
+
+  .logo-wrapper .logo {
+    width: 9.5em;
+  }
+
+  .marketing-illustration {
+    margin-top: 2.8em;
+    min-height: 75vh;
+  }
+
+  .marketing-message .message-title {
+    font-size: 1.8em;
+  }
+  .marketing-message .message-text {
+    font-size: 1.1em;
+  }
+  .marketing-message .button-wrapper .btn-register {
+    padding: 15px;
+    max-width: 70%;
+    font-size: 1em;
+  }
+
+  .social-links-wrapper .social-icon .fab {
+    padding: 10px;
+    font-size: 16px;
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
 
 /*# sourceMappingURL=styles.css.map */
