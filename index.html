@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/70ab2d7f09.js"></script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -15,19 +20,44 @@
   </style>
 </head>
 <body>
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <div class="container">
+    <header>
+      <div class="logo-wrapper">
+        <img src="images/logo.svg" class="logo" alt="logo">
+      </div>
+    </header>
+    <main>
+      <div class="marketing-illustration"></div>
+      <div class="marketing-message">
+        <h1 class="message-title">
+          <span>Build The Community</span>
+          <span>Your Fans Will Love</span>
+        </h1>
+        <p class="message-text">
+          Huddle re-imagines the way we build communities. You have a voice,
+          but so does your audience. Create connections with your users as
+          you engage in genuine discussion.
+        </p>
+        <button type="button" class="btn-register" name="button">Register</button>
+      </div>
+    </main>
+    <div class="social">
+      <div class="social-icon">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+      <div class="social-icon">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="social-icon">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <footer>
+      <p class="attribution">
+        <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</span>
+        <span>Coded by <a href="http://enockaddey.com/">Enock Kwesi Addey</a> &copy; 2019.</span>
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
