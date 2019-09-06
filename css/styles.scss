@@ -80,7 +80,6 @@ input:focus {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 100%;
-  // min-height: 45vh;
   min-height: 300px;
   margin-top: 2.3em;
 }
@@ -273,6 +272,7 @@ footer {
   }
 }
 
+
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -280,6 +280,21 @@ footer {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  //CSS
+  .marketing-illustration {
+    min-height: 220px;
+  }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+
+  .marketing-illustration {
+    min-height: 350px;
+  }
 
 }

@@ -205,5 +205,19 @@ footer .attribution span + span {
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
+@media (min-width: 320px) and (max-width: 480px) {
+  .marketing-illustration {
+    min-height: 220px;
+  }
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+  .marketing-illustration {
+    min-height: 350px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
