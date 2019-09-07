@@ -343,7 +343,7 @@ footer {
     margin-top: 10em;
 
       .message-title {
-        font-size: 4em;
+        font-size: 3.1em;
       }
 
       .message-text {
@@ -356,7 +356,7 @@ footer {
 
           .btn-register {
             padding: 17px;
-            max-width: 60%;
+            max-width: 50%;
             font-size: 1.2em;
           }
       }
@@ -426,6 +426,22 @@ footer {
       font-size: 16px;
     }
   }
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+
+  .marketing-message  {
+
+    .button-wrapper {
+
+        .btn-register {
+          padding: 15px;
+          max-width: 50%;
+          font-size: 1em;
+        }
+    }
+  }
+
 }
 
 
