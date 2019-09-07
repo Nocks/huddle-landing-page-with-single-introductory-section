@@ -187,10 +187,74 @@ footer {
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
+// @media (min-width: 1025px) and (max-width: 1280px)
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) {
 
-  //CSS
+  .container {
+    background-image: url("../images/bg-desktop.svg");
+    background-size: cover;
+    padding: 3.5em 3.5em 1em 3.5em;
+  }
+
+  .logo-wrapper {
+
+      .logo {
+        width: 12em;
+      }
+  }
+
+  main {
+    margin-top: 4em;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .marketing-illustration {
+    flex: 40%;
+  }
+
+  .marketing-message {
+    flex: 40%;
+    margin-top: 0;
+    padding: 2em 2em 2em 4em;
+
+      .message-title {
+        font-size: 2em;
+        text-align: left;
+      }
+
+      .message-text {
+        font-size: 1em;
+        text-align: left;
+      }
+
+      .button-wrapper {
+        justify-content: flex-start;
+        margin-top: 0;
+
+          .btn-register {
+            max-width: 35%;
+          }
+      }
+  }
+
+  .social-links-wrapper {
+    justify-content: flex-end;
+
+    .social-icon .fab {
+      padding: 8px;
+      font-size: 13px;
+    }
+  }
+
+  footer {
+    margin-top: 2em;
+
+      .attribution span {
+        display: inline;
+      }
+  }
 
 }
 
