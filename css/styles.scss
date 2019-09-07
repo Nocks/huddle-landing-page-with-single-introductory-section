@@ -76,12 +76,7 @@ input:focus {
 }
 
 .marketing-illustration {
-  background-image: url("../images/illustration-mockups.svg");
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  min-height: 300px;
-  margin-top: 2.3em;
+  width: 100%;
 }
 
 .marketing-message {
@@ -89,6 +84,7 @@ input:focus {
 
     .message-title {
       font-size: 1.3em;
+      line-height: 1.2em;
       font-weight: bold;
       text-align: center;
 
@@ -205,7 +201,55 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-  //CSS
+  .container {
+    padding: 7em 8em 1em 8em;
+  }
+
+  .logo-wrapper {
+
+      .logo {
+        width: 20em;
+      }
+  }
+
+  main {
+    margin-top: 8em;
+  }
+
+  .marketing-message {
+    margin-top: 10em;
+
+      .message-title {
+        font-size: 2.88em;
+      }
+
+      .message-text {
+        font-size: 1.8em;
+        line-height: 1.6em;
+        margin-bottom: 2em;
+      }
+
+      .button-wrapper {
+
+          .btn-register {
+            padding: 17px;
+            max-width: 60%;
+            font-size: 1.2em;
+          }
+      }
+  }
+
+  .social-links-wrapper {
+
+    .social-icon .fab {
+      padding: 12px;
+      font-size: 16px;
+    }
+  }
+
+  footer {
+    margin-top: 8em;
+  }
 
 }
 
@@ -216,7 +260,55 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-  //CSS
+  .container {
+    padding: 7em 8em 1em 8em;
+  }
+
+  .logo-wrapper {
+
+      .logo {
+        width: 20em;
+      }
+  }
+
+  main {
+    margin-top: 8em;
+  }
+
+  .marketing-message {
+    margin-top: 10em;
+
+      .message-title {
+        font-size: 4em;
+      }
+
+      .message-text {
+        font-size: 1.8em;
+        line-height: 1.6em;
+        margin-bottom: 2em;
+      }
+
+      .button-wrapper {
+
+          .btn-register {
+            padding: 17px;
+            max-width: 60%;
+            font-size: 1.2em;
+          }
+      }
+  }
+
+  .social-links-wrapper {
+
+    .social-icon .fab {
+      padding: 12px;
+      font-size: 16px;
+    }
+  }
+
+  footer {
+    margin-top: 8em;
+  }
 
 }
 
@@ -234,23 +326,23 @@ footer {
   .logo-wrapper {
 
       .logo {
-        width: 9.5em;
+        width: 11em;
       }
   }
 
-  .marketing-illustration {
-    margin-top: 2.8em;
-    min-height: 400px;
+  main {
+    margin-top: 5em;
   }
 
   .marketing-message {
+    margin-top: 6em;
 
       .message-title {
-        font-size: 1.8em;
+        font-size: 2.2em;
       }
 
       .message-text {
-        font-size: 1.1em;
+        font-size: 1.2em;
       }
 
       .button-wrapper {
@@ -280,8 +372,8 @@ footer {
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-  .marketing-illustration {
-    min-height: 220px;
+  .marketing-message {
+    margin-top: 2em;
   }
 
 }
@@ -293,8 +385,19 @@ footer {
 
 @media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
 
-  .marketing-illustration {
-    min-height: 350px;
+  main {
+    margin-top: 3em;
   }
 
+  .marketing-message {
+    margin-top: 3.5em;
+
+      .message-title {
+        font-size: 1.5em;
+      }
+
+      .message-text {
+        font-size: 1.1em;
+      }
+  }
 }
