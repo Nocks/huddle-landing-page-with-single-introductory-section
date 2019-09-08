@@ -217,7 +217,7 @@ footer .attribution span + span {
 */
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
-    padding: 7em 8em 1em 8em;
+    padding: 5em 5em 1em 5em;
   }
 
   .logo-wrapper .logo {
@@ -232,7 +232,7 @@ footer .attribution span + span {
     margin-top: 10em;
   }
   .marketing-message .message-title {
-    font-size: 2.8em;
+    font-size: 2.88em;
   }
   .marketing-message .message-text {
     font-size: 1.8em;
@@ -260,7 +260,7 @@ footer .attribution span + span {
 */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .container {
-    padding: 7em 8em 1em 8em;
+    padding: 5em 5em 1em 5em;
   }
 
   .logo-wrapper .logo {
@@ -275,7 +275,7 @@ footer .attribution span + span {
     margin-top: 10em;
   }
   .marketing-message .message-title {
-    font-size: 3.1em;
+    font-size: 3.2em;
   }
   .marketing-message .message-text {
     font-size: 1.8em;
